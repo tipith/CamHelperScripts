@@ -1,4 +1,5 @@
 #!/bin/sh
+#
 # Sends all log files from /var/log into remote host.
 
 filename=`date +%Y-%m-%d_%H:%M`_`hostname`_logs.tar.gz
