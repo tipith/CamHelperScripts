@@ -16,4 +16,4 @@ if [ `hostname -s` == 'alho3' ]; then
 fi
 
 autossh -M 0 -o "ExitOnForwardFailure yes" -o "ServerAliveInterval 60" -o "ServerAliveCountMax 3" -v -f -N -R $port:localhost:22 camserver
-
+autossh -M 0 -o "ExitOnForwardFailure yes" -o "ServerAliveInterval 60" -o "ServerAliveCountMax 3" -v -f -N -R $port:localhost:22 camserver2
